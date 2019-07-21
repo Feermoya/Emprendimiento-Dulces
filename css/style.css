@@ -41,7 +41,8 @@ table {
 #banner h2{
     font-family: 'Satisfy', sans-serif;
     font-size: 45px;
-    color: #FFB03B;
+    margin-top: 40px;
+    color: #ff8080;
 }
 #banner p{
     font-family: 'PT Sans', sans-serif;
@@ -53,9 +54,9 @@ table {
 }
 .logo-name{
     font-family: 'Satisfy', sans-serif;
-    font-size: 55px;
+    font-size: 60px;
     margin-top: 140px;
-    color: #FFB03B;
+    color: #ff8080;
 }
 .sidenav {
     height: 100%;
@@ -100,10 +101,11 @@ table {
 }
 
 .header-h {
-    color: #FFB03B;
+    color: #ff8080;
     font-size: 46px;
     font-family: 'Satisfy', sans-serif;
     font-weight: 300;
+    margin-top: 0px;
 }
 .header-p {
     color: #9699a6;
@@ -129,13 +131,13 @@ table {
     margin-top: 18px;
 }
 .bg-1 {
-    background-color: #fecc17;
+    background-color: #ff8080;
     width: 70px;
     height: 70px;
     border-radius: 50%;
 }
 .bg-14 {
-    background-color: #ccdb38;
+    background-color: #ff8080;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -253,7 +255,7 @@ table {
 
 .heading{
     font-family: 'Satisfy', sans-serif;
-    color: #FFB03B;
+    color: #ff8080;
     font-size: 24px;
 }
 .marb-35{
@@ -264,11 +266,12 @@ table {
 }
 .details-list ul li i {
     margin-right: 10px;
-    color: #ffb03b;
+    color: #ff8080;
 }
+/* Bordes en imagenes */
 #about img
 {
-    border: 5px solid rgb(255, 176, 59);
+    border: 5px solid rgb(241, 101, 101);
     border-radius: 2px;
 }
 #event{
@@ -292,13 +295,13 @@ table {
     overflow: auto;
 }
 .content-holder h2 {
-    color: #FFB03B;
+    color: #ff8080;
     font-size: 32px;
     padding-bottom: 15px;
     font-family: 'Satisfy', sans-serif;
 }
 .content-holder address strong {
-    color: #FFB03B;
+    color: #ff8080;
     padding: 10px 0px;
 }
 .details-text p {
@@ -308,7 +311,7 @@ table {
     font-weight: 300;
 }
 .btn-read-more {
-    background: #FFB03B;
+    background: #ff8080;
     padding: 7px 19px;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -338,7 +341,7 @@ table {
     font-family: Montserrat,arial;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FFB03B;
+    color: #ff8080;
 }
 .menu-restaurant .menu-line {
     position: absolute;
@@ -356,7 +359,7 @@ table {
 .menu-restaurant .menu-subtitle {
     display: block;
     float: left;
-    color: #B1B1B1;
+    color: rgb(97, 97, 97);
     font-family:  Arial, Helvetica, sans-serif;
     font-size: 1.7rem;
 }
@@ -366,9 +369,9 @@ table {
 }
 
 #menu-flters ul li a.active, #menu-flters ul li a:hover {
-    background: #FFB03B;
+    background: #ff8080;
     color: #fff;
-    border: 1px solid #FFB03B;
+    border: 1px solid #ff8080;
 }
 #menu-flters ul li {
     display: inline-block;
@@ -411,7 +414,7 @@ table {
     padding-bottom: 20px;
     font-family: 'Satisfy', sans-serif;
     font-size: 44px;
-    color: #FFB03B;
+    color: #ff8080;
 }
 .footer .widget, .footer address {
     color: #999;
@@ -436,6 +439,7 @@ table {
     text-transform: uppercase;
     margin: 0 5px;
 }
+/* RESPONSIVE DISENG */
 @media (min-width: 768px) and (max-width: 980px) {
     .content-holder h2 {
         font-size: 23px;
